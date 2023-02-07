@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* utilities */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn_primary {
+    width: 150px;
+    height: 64px;
+    background: #FD6E0A;
+    border: none;
+    border-radius: 33px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+/* header style  */
+header {
+    background-color: #FFF8F3;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left, right bottom;
+    margin-top: -45px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+}
+
+nav h1 {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav h1 span {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+
+}
+
+.banner_content h3 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+}
+
+.banner_content h1 {
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+}
+
+.banner_content p {
+    margin-bottom: 20px;
+}
+
+.btn_primary1 {
+    width: 150px;
+    height: 45px;
+    background: #FD6E0A;
+    border: none;
+    border-radius: 33px;
+    font-weight: 700;
+    color: white;
+}
+
+.btn_primary2 {
+    width: 150px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #FD6E0A;
+    border-radius: 33px;
+    font-weight: 700;
+    color: #FD6E0A;
+    margin-left: 10px;
+}
+
+.banner_img img {
+    width: 478px;
+    height: 635px;
+}
+
+/* Main section  */
+main {
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.about_me {
+    width: 1140px;
+    height: 550px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_me_content {
+    width: 827px;
+    height: 288px;
+}
+
+.about_me_content h2 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about_me_content p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+}
+
+.about_me_contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.am_contact {
+    text-align: center;
+}
+
+/* What i do section  */
+.whatIdo {
+    width: 1140px;
+    height: 550px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whatIdo h2 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.whatIdoP {
+    width: 989px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+}
+
+.serviceCards {
+    display: flex;
+    margin-top: 20px;
+}
+
+.service_cards {
+    width: 239px;
+    height: 274px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-left: 16px;
+}
+
+.service_cards h1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.service_cards p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+
+}
+
+/* my resume  */
+.my_resume {
+    margin-top: 50px;
+}
+
+.my_resume h1 {
+    text-align: center;
+}
+
+.resumeDetails {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.education h2 {
+    margin-bottom: 30px;
+}
+
+.educationOne {
+    width: 511px;
+    height: 175px;
+}
+
+.educationOne h3 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.educationOne h5 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+/* footer  */
+footer {
+    width: 100%;
+    height: 500px;
+    background: #FFF8F3;
+    margin-top: 50px;
+}
